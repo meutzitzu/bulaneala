@@ -1,0 +1,22 @@
+html{
+height: 100%;
+}
+
+body{
+height: 100%;
+display: grid;
+grid-template-columns: 1fr 5fr;
+grid-template-rows: 1fr;
+}
+
+#input {
+height: 100%
+}
+
+#viewbox svg {
+height: 100%;
+width: 100%;
+stroke:black;
+stroke-width:5px;
+fill:none;
+}
